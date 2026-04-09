@@ -1,7 +1,10 @@
 
 body{background-color: #4B352B;}
 
-h1{color: #4B352B; -webkit-text-stroke: 0.5px black; font-size: 46px}
+h1{color:  #DA9C46; -webkit-text-stroke: 0.5px black; font-size: 46px}
+h2{color: #DA9C46; -webkit-text-stroke: 0.1px black; font-size: 32px;}
+
+ul{color: white;}
 
 p{color: #FFF;}
 
@@ -23,9 +26,8 @@ header
 .page-navigation
 {
     color: #DA9C46; 
-    font-size: 24px; 
+    font-size: 12px; 
     text-decoration: none; 
-    font-family: Geneva;
 }
 
 .container
@@ -42,6 +44,11 @@ header
     {
         width: 576px;
     }
+
+    .page-navigation
+    {
+        font-size: 20px;
+    }
 }
 
 /* Desktop Styles */
@@ -50,6 +57,11 @@ header
     .container
     {
         width: 1140px;
+    }
+
+    .page-navigation
+    {
+        font-size: 30px;
     }
 }
 
